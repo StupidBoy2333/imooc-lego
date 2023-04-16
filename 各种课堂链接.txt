@@ -1,4 +1,4 @@
-代码规范文档：
+代码规范文档、项目文件结构和命名规范文档：
 https://imooc-lego.yuque.com/imooc-lego/elp4vn/wtg4vo
-项目文件结构和命名规范文档：
-https://imooc-lego.yuque.com/imooc-lego/elp4vn/igcosu
+技术方案文档:
+https://imooc-lego.yuque.com/imooc-lego/xgst0k/vkuhe1
