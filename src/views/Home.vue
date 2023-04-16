@@ -1,15 +1,7 @@
 <template>
   <div class="content-container">
     <a-row :gutter="16">
-      <!-- <template-list ></template-list> -->
-      <ul>
-        <li>1111</li>
-        <li>1111</li>
-        <li>1111</li>
-        <li>1111</li>
-        <li>1111</li>
-        <li>1111</li>
-      </ul>
+      <template-list :list="testData"></template-list>
     </a-row>
     <a-row type="flex" justify="center">
       <a-button type="primary" size="large">加载更多</a-button>
@@ -18,24 +10,19 @@
 </template>
 
 <script lang="ts">
-import router from "@/routes";
-import { defineComponent } from "vue";
-import { useRouter } from "vue-router";
+import { defineComponent, computed } from "vue";
+import { useStore } from "vuex";
+import TemplateList from '../components/TemplateList.vue'
+import { GlobalDataProps } from "@/store";
 
 export default defineComponent({
   components: {
-    // TemplateList
+    TemplateList
   },
   setup() {
-    setTimeout(()=>{
-      router.push({
-        name:'template',
-        params:{
-          id:1
-        }
-      })
-    },2000)
-    return {};
+    const store = useStore<GlobalDataProps>();
+    const testData = computed(() => store.state.templates.data);
+    return { testData };
   },
 });
 </script>
