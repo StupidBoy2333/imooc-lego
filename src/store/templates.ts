@@ -11,7 +11,7 @@ export interface TemplateProps {
 const testData: TemplateProps[] = [
   {
     id: 1,
-    title: "前端架构师直播海报",
+    title: "前端架构师直播海报1",
     author: "136****5632",
     copiedCount: 1923,
     coverImg:
@@ -19,7 +19,7 @@ const testData: TemplateProps[] = [
   },
   {
     id: 2,
-    title: "前端架构师直播海报",
+    title: "前端架构师直播海报2",
     author: "136****5632",
     copiedCount: 1923,
     coverImg:
@@ -27,7 +27,7 @@ const testData: TemplateProps[] = [
   },
   {
     id: 3,
-    title: "前端架构师直播海报",
+    title: "前端架构师直播海报3",
     author: "136****5632",
     copiedCount: 1923,
     coverImg:

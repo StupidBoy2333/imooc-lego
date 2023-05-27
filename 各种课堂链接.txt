@@ -2,3 +2,6 @@
 https://imooc-lego.yuque.com/imooc-lego/elp4vn/wtg4vo
 技术方案文档:
 https://imooc-lego.yuque.com/imooc-lego/xgst0k/vkuhe1
+uuid:安装时需要同时安装类型文件
+https://www.npmjs.com/package/uuid
+
